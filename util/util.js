@@ -23,7 +23,7 @@ import Jimp from "jimp";
           resolve(outpath);
         });
     } catch (error) {
-      reject(error);
+      console.log(error);
     }
   });
 }
